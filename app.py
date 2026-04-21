@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
-API_GATEWAY_URL = os.environ.get('API_GATEWAY_URL', 'your-endpoint')
+API_GATEWAY_URL = os.environ.get('API_GATEWAY_URL', 'https://eb0agcyt1b.execute-api.us-east-1.amazonaws.com/default/mygenaiapp')
 
 
 @app.route('/')
